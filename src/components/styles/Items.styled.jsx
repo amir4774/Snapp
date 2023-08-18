@@ -4,7 +4,7 @@ export const StyledItems = styled.div`
     background-color: ${({ theme }) => theme.colors.lightBlue};
     
     .main-title {
-        padding: 35px;
+        padding: 30px;
         text-align: center;
         color: #3f3f3f;
         font-size: 2.7rem;
@@ -19,7 +19,7 @@ export const StyledItems = styled.div`
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
         .main-title {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
 
         .flex {
@@ -40,7 +40,7 @@ export const Container = styled.div`
 export const Services = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px 40px;
+    gap: 30px 25px;
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
         gap: 25px 35px;

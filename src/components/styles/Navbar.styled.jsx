@@ -6,8 +6,8 @@ export const StyledNavbar = styled.nav`
     width: 100%;
     background-color: #fff;
     display: flex;
-    padding: 30px 0;
-    padding-right: 180px;
+    padding: 25px 0;
+    padding-right: 155px;
     border-bottom: 1px solid #f4f4f4;
 
     img {
@@ -17,7 +17,7 @@ export const StyledNavbar = styled.nav`
     @media (max-width: ${({ theme }) => theme.mobile}) {
         flex-direction: row-reverse;
         justify-content: space-between;
-        padding: 13px 17px;
+        padding: 10px 15px;
     }
 `
 
@@ -35,7 +35,7 @@ export const NavbarUl =styled.ul`
     li {
         margin-right: 30px;
         margin-top: 5px;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     
     @media (max-width: ${({ theme }) => theme.mobile}) {

@@ -7,7 +7,7 @@ export const Form = styled.form`
     input {
         font-family: 'iran';
         margin-left: 20px;
-        width: 270px;
+        width: 230px;
         background: transparent;
         border: none;
         border-bottom: 1px solid #f4f4f4;

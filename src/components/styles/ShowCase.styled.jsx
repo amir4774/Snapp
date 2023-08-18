@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const StyledShowCase = styled.div`
-    padding-top: 98px;
+    padding-top: 85px;
     
     .banner-image {
         width: 50%;
@@ -9,7 +9,7 @@ export const StyledShowCase = styled.div`
     }
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
-        padding-top: 60px;
+        padding-top: 50px;
 
         .banner-image {
             display: none;

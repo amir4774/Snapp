@@ -30,16 +30,22 @@ export const Text = styled.div`
 
     p {
         margin-top: 15px;
-        font-size: 1.05rem;
+        font-size: 1rem;
+        line-height: 1.3;
     }
 
     @media(max-width: ${({ theme }) => theme.mobile}) {
         width: 100%;
-        padding: 22px;
+        padding: 17px;
+
+        .title {
+            font-size: 1.5rem;
+        }
 
         p {
             margin-top: 10px;
-            font-size: 1rem;
+            font-size: 0.92rem;
+            line-height: 1.7;
         }
     }
 `

@@ -1,3 +1,4 @@
+import Benefits from "./Benefits";
 import Details from "./Details";
 import Images from "./Images";
 import { StyledAbout } from "./styles/About.styled";
@@ -7,6 +8,7 @@ const About = () => {
         <StyledAbout>
             <Images />
             <Details />
+            <Benefits />
         </StyledAbout>
     )
 }

@@ -5,9 +5,9 @@ export const Button = styled.button`
     color: ${({ mycolor, theme }) => mycolor || theme.colors.green};
     border: ${({ myborder }) => myborder || 'none'};
     border-radius: 6px;
-    padding: 6px 30px;
+    padding: 6px 20px;
     font-weight: bolder;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'iran';
     cursor: pointer;
 
