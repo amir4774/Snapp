@@ -7,12 +7,12 @@ import DriverCards from './DriverCards';
 const DriverBenefits = () => {
     return (
         <GlobalContainer margin_top_bottom='50px' style={{ marginBottom: '20px' }}>
-            <StyledDriverBenefits>
+            <div>
                 <Video src={videoSrc} controls />
-                <div className="driver-cards">
+                <StyledDriverBenefits>
                     {DriverBenefitsContents.map(card => (<DriverCards key={card.id} card={card} />))}
-                </div>
-            </StyledDriverBenefits>
+                </StyledDriverBenefits>
+            </div>
         </GlobalContainer>
     )
 }

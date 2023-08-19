@@ -7,6 +7,7 @@ import ShowCase from "./components/ShowCase";
 import Items from "./components/Items";
 import About from "./components/About";
 import BeDriver from "./components/BeDriver";
+import Footer from "./components/Footer";
 
 const theme = {
   colors: {
@@ -45,6 +46,7 @@ const App = () => {
           <Items />
           <About />
           <BeDriver />
+          <Footer />
         </>
       }
     </ThemeProvider>
