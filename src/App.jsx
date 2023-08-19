@@ -6,6 +6,7 @@ import Ul from "./components/Ul";
 import ShowCase from "./components/ShowCase";
 import Items from "./components/Items";
 import About from "./components/About";
+import Driver from "./components/BeDriver";
 
 const theme = {
   colors: {
@@ -43,6 +44,7 @@ const App = () => {
           <ShowCase />
           <Items />
           <About />
+          <Driver />
         </>
       }
     </ThemeProvider>

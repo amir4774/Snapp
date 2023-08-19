@@ -28,7 +28,7 @@ export const StyledItems = styled.div`
     }
 `
 
-export const Container = styled.div`
+export const ItemsContainer = styled.div`
     width: 65%;
     margin: 0 auto;
 

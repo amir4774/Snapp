@@ -1,9 +1,7 @@
 import { styled } from "styled-components";
 
 export const StyledImages = styled.div`
-    width: 70%;
     height: 351px;
-    margin: 80px auto;
     overflow: hidden;
     position: relative;
 
@@ -28,9 +26,7 @@ export const StyledImages = styled.div`
     }
 
     @media(max-width: ${({ theme }) => theme.mobile}) {
-        width: 90%;
         height: 170px;
-        margin: 40px auto;
     }
 `
 

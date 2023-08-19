@@ -5,7 +5,7 @@ export const Button = styled.button`
     color: ${({ mycolor, theme }) => mycolor || theme.colors.green};
     border: ${({ myborder }) => myborder || 'none'};
     border-radius: 6px;
-    padding: 6px 20px;
+    padding: 6px 25px;
     font-weight: bolder;
     font-size: 1rem;
     font-family: 'iran';

@@ -1,6 +1,6 @@
-import Contents from '../Contents';
+import ItemsContents from '../../Contents/ItemsContents';
 import Service from './Service';
-import { Container, Services, StyledItems } from './styles/Items.styled';
+import { ItemsContainer, Services, StyledItems } from './styles/Items.styled';
 import { ServiceBody, ServiceTitle, StyledService, Texts } from './styles/Service.styled';
 import credit from '../../Images/Items-images/Credit.svg';
 import investment from '../../Images/Items-images/investment.svg';
@@ -10,9 +10,9 @@ const Items = () => {
         <StyledItems>
             <p className='main-title'>یک اپلیکیشن، برای تمام نیازها</p>
 
-            <Container>
+            <ItemsContainer>
                 <Services>
-                    {Contents.map(content => (<Service key={content.id} content={content} />))}
+                    {ItemsContents.map(content => (<Service key={content.id} content={content} />))}
                 </Services>
 
                 {/* Last Two Items */}
@@ -33,7 +33,7 @@ const Items = () => {
                     </StyledService>
                 </div>
 
-            </Container>
+            </ItemsContainer>
 
         </StyledItems>
     )

@@ -3,8 +3,6 @@ import { styled } from "styled-components";
 export const StyledBanner = styled.div`
     width: 50%;
     background: ${({ theme }) => theme.colors.backgrounGreen};
-    /* padding-right: 220px;
-    padding-top: 35px; */
     padding: 33px 220px 30px 40px;
     color: #fff;
 
