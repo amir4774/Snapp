@@ -2,7 +2,7 @@ import DriverBenefits from "./DriverBenefits";
 import { StyledBeDriver, Titles } from "./styles/BeDriver.styled";
 import { Button } from "./styles/Button";
 
-const Driver = () => {
+const BeDriver = () => {
   return (
     <StyledBeDriver>
 
@@ -23,4 +23,4 @@ const Driver = () => {
   )
 }
 
-export default Driver;
+export default BeDriver;
